@@ -1,0 +1,17 @@
+{task_prompt}
+
+Following is the Design Idea of a heuristic algorithm for the problem and the code with the function name '{func_name}' for implementing the heuristic algorithm.
+
+{prompt_inout_inf} {prompt_other_inf}
+
+Design Idea:
+{algo_desc}
+
+Code:
+{code}
+
+The content of the Design Idea may not fully represent what the algorithm actually does in detail.
+Now, please re-describe the algorithm in no more than three sentences.
+
+Hint: Reference the provided Design Idea and highlight the most critical aspects of the code. 
+You may analyze which variables are given higher or lower priorities, explain the parameters used, and describe the structure of the algorithm.

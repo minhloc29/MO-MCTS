@@ -1,0 +1,15 @@
+{task_prompt}
+
+I have {algo_length} existing algorithms with their corresponding code as follows:  
+{list_of_codes}
+
+Please help me design a new algorithm that is inspired by all the above algorithms, aiming to improve the Pareto front by achieving better overall trade-offs or dominating existing solutions.
+
+1. Identify and list key ideas from the provided algorithms that clearly contribute to better performance across multiple objectives.
+
+2. Based on those ideas, describe the design and main steps of your new algorithm in a single sentence. This description must be enclosed in braces {{}}.
+
+3. Finally, implement the new algorithm by completing the following Python function:  
+{temp_func}
+
+Do not include any additional explanations.

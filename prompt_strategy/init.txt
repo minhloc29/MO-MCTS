@@ -1,0 +1,8 @@
+{task_prompt}
+
+1. Describe your new algorithm and its main steps in a single sentence. The description must be enclosed in double curly brackets {{}}.
+
+2. Then, implement the algorithm by completing the following Python function:  
+{temp_func}
+
+Do not provide any additional explanations.

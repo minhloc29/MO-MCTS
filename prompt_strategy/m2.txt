@@ -1,0 +1,13 @@
+{task_prompt}
+I have one algorithm with its code as follows. Algorithm description:
+{algo_desc}
+Code:
+{code}
+Please identify the main algorithm parameters and assist me in creating a new algorithm that has a different parameter settings of the score function provided.
+
+1. First, describe your new algorithm and main steps in one sentence. The description must be inside within boxed {{}}.
+2. Next, implement the following Python function:
+
+{temp_func}
+
+Do not give additional explanations.'''

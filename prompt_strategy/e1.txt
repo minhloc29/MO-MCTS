@@ -1,0 +1,13 @@
+{task_prompt}
+
+I have {algo_length} existing algorithms with their corresponding code as follows:  
+{list_of_codes}
+
+Your task is to create a new algorithm that is entirely different in form from the ones provided.
+
+1. Begin by describing your new algorithm and its main steps in a single sentence. The description must be enclosed in double curly brackets {{}}.
+
+2. Then, implement the new algorithm by completing the following Python function:  
+{temp_func}
+
+Do not include any additional explanations.

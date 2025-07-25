@@ -1,0 +1,13 @@
+{task_prompt}
+
+I have {algo_length} existing algorithms with their corresponding code as follows:  
+{list_of_codes}
+
+Please help me design a new algorithm that has a completely different structure from the provided ones, but may be inspired by them.
+
+1. First, identify the common underlying idea or backbone shared by the given algorithms.  
+2. Next, based on that backbone idea, describe your new algorithm in one sentence. The description must be enclosed in double curly brackets {{}}.  
+3. Finally, implement the new algorithm by completing the following Python function:  
+{temp_func}
+
+Do not include any additional explanations.

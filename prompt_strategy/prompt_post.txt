@@ -1,0 +1,13 @@
+{task_prompt}
+
+Following is the code implementing a heuristic algorithm with the function name '{prompt_func_name}' to solve the above-mentioned problem.
+
+{prompt_inout_inf} {prompt_other_inf}
+
+Code:
+{code}
+
+Now, you should describe the Design Idea of the algorithm in no more than five sentences.
+
+Hint: Highlight each meaningful design element in the provided code and explain the underlying ideas. 
+You may analyze the code to identify which variables are given higher or lower priority, the choice and role of parameters, and the overall structure of the algorithm.

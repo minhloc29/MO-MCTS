@@ -1,0 +1,18 @@
+{task_prompt}
+
+Below is an algorithm along with its code:
+
+Algorithm Description:  
+{algo_desc}
+
+Code:  
+{code}
+
+Your task is to assist in creating a new algorithm that differs in form but is a modified version of the one provided.
+
+1. First, describe your new algorithm and its main steps in a single sentence. The description must be enclosed in double curly brackets {{}}.
+
+2. Then, implement the new algorithm in Python by completing the following function:  
+{temp_func}
+
+Do not include any additional explanations.
